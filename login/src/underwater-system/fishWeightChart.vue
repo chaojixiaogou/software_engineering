@@ -42,7 +42,6 @@ export default {
         //     this.initEcharts(selectedFishWeights);
         // },
         //测试3333
-        // git test789
         async drawChart(fishType) {
             try {
                 const response = await getweight(fishType);
