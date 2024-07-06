@@ -41,6 +41,7 @@ export default {
         //     var selectedFishWeights = fishWeightData.find(fish => fish.name === fishType).weights;
         //     this.initEcharts(selectedFishWeights);
         // },
+        //测试3333
         async drawChart(fishType) {
             try {
                 const response = await getweight(fishType);

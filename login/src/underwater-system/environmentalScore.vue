@@ -29,7 +29,7 @@ export default {
                 this.Mn = response.data[0]['高锰酸盐指数（mg/L）'];
                 this.NH = response.data[0]['氨氮（mg/L）'];
                 this.P = response.data[0]['总磷（mg/L）'];
-                
+                //测试2222
                 if(this.pH > 6 &&this.pH < 9){
                     this.score += 100*0.2;
                 }
