@@ -23,6 +23,7 @@ export default {
     methods: {
         async fetchData() {
             try {
+                // git test456
                 const response = await getwaterdata();
                 this.pH = response.data[0]['pH(无量纲)'];
                 this.O2 = response.data[0]['溶氧量(mg/L)'];

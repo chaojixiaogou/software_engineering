@@ -99,6 +99,7 @@ export default {
             // // 删除用户逻辑
             // console.log('Deleted user:', this.user);
             // this.deleteDialogVisible = false;
+           // git test11111
             try {
                 const response = await deleteUser(this.user.account);
                 console.log('User deleted:', response.data);
