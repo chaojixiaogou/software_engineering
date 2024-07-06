@@ -8,7 +8,7 @@ const db = mysql.createPool({
     password: '20031031fy',
     database: 'test'
 })
-
+//git test333
 // 对外暴露数据库
 module.exports = db
 
