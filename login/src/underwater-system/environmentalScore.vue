@@ -15,6 +15,7 @@ export default {
             Mn: 0,  // 高锰酸盐指数（mg/L）
             NH: 0,  // 氨氮（mg/L）
             P: 0,  // 总磷（mg/L）
+            //2222
         };
     },
     mounted() {
